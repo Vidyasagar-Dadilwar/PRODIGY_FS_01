@@ -9,7 +9,7 @@ const app = express();
 
 require("./config/passport")(passport);
 // Database Config
-const db = "mongodb+srv://mongo:mongo123@cluster0.tibryt6.mongodb.net/PRODIGY_FS_01";
+const db = "YOUR MONGO URI";
 
 // Connect to MongoDB
 mongoose
